@@ -1,5 +1,10 @@
 # Flutter BLE Messaging Demo
 
+
+Peer-to-peer messaging between smartphones using Bluetooth Low Energy (BLE).
+
+Offline communication without internet. Includes chunked transfer and message framing protocol.
+
 A simple peer-to-peer messaging demo using Bluetooth Low Energy (BLE).
 
 Two smartphones can connect directly and exchange messages without internet.
