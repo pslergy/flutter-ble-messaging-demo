@@ -82,7 +82,7 @@ It includes:
 
 Buy the source code here:
 
-➡️ **[LINK TO PURCHASE]**
+➡️ **On request**
 
 After purchase you will receive access to the private repository.
 
