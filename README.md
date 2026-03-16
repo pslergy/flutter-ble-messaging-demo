@@ -20,6 +20,14 @@ https://github.com/pslergy/flutter-ble-messaging-demo/tree/main/docs
 
 ---
 
+## Used in
+
+This BLE transport is used in the following project:
+
+Memento Mori Mesh Messenger
+
+https://github.com/pslergy/memento-mori-app
+
 ## Features
 
 • BLE peer-to-peer communication
