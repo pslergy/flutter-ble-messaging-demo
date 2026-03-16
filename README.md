@@ -1,15 +1,15 @@
 # Flutter BLE Messaging Demo
 
+Peer-to-peer messaging between smartphones using **Bluetooth Low Energy (BLE)**.
 
-Peer-to-peer messaging between smartphones using Bluetooth Low Energy (BLE).
+This demo shows how two phones can connect directly and exchange messages **without internet** using a custom BLE messaging protocol.
 
-Offline communication without internet. Includes chunked transfer and message framing protocol.
+The project demonstrates a lightweight BLE transport layer that can be used for:
 
-A simple peer-to-peer messaging demo using Bluetooth Low Energy (BLE).
-
-Two smartphones can connect directly and exchange messages without internet.
-
-This project demonstrates a basic BLE transport layer that can be used for offline messaging, device communication, or mesh networking experiments.
+* offline messaging
+* IoT device communication
+* mesh networking experiments
+* peer-to-peer data exchange
 
 ---
 
@@ -26,9 +26,9 @@ This project demonstrates a basic BLE transport layer that can be used for offli
 
 ## Demo APK
 
-Download and install the demo application:
+Download the demo application from the **Releases page**:
 
-`demo/ble_chat_demo.apk`
+➡️ **[https://github.com/YOUR_REPO/releases](https://github.com/pslergy/flutter-ble-messaging-demo/releases)**
 
 Install the APK on two phones and start a BLE connection.
 
@@ -70,26 +70,26 @@ This allows sending messages larger than the BLE packet size.
 
 ## Source Code
 
-The full source code of this project is available for purchase.
+The **full source code** of this project is available separately.
 
 It includes:
 
-• Flutter BLE transport implementation
-• Android GATT server
+• Flutter BLE transport layer
+• Android GATT server implementation
 • message framing protocol
-• chunked BLE transfer
+• chunked BLE transfer logic
 • working demo application
 
-Buy the source code here:
+Commercial license and source code access are available **on request**.
 
-➡️ **On request**
+➡️ Contact for access: **(pslergy@gmail.com / link)**
 
-After purchase you will receive access to the private repository.
+After purchase you will receive access to the **private repository**.
 
 ---
 
 ## License
 
-This repository contains the demo application only.
+This repository contains **demo binaries and documentation only**.
 
-The full source code is available under a commercial license.
+The complete source code is available under a **commercial license**.
