@@ -28,7 +28,7 @@ The project demonstrates a lightweight BLE transport layer that can be used for:
 
 Download the demo application from the **Releases page**:
 
-➡️ **[https://github.com/YOUR_REPO/releases](https://github.com/pslergy/flutter-ble-messaging-demo/releases]**
+➡️ **https://github.com/YOUR_REPO/releases](https://github.com/pslergy/flutter-ble-messaging-demo/releases**
 
 Install the APK on two phones and start a BLE connection.
 
