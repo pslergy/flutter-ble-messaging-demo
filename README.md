@@ -13,6 +13,14 @@ The project demonstrates a lightweight BLE transport layer that can be used for:
 
 ---
 
+## Documentation
+
+Protocol documentation:
+
+docs/ble-messaging-protocol.md
+
+---
+
 ## Features
 
 • BLE peer-to-peer communication
