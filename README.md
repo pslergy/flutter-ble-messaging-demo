@@ -49,6 +49,9 @@ Install the APK on two phones and start a BLE connection.
 
 ---
 
+Purchase source code:
+https://psylergyswarm.lemonsqueezy.com/checkout/buy/637564aa-8df1-4cdb-a3ca-25fb211849ab
+
 ## Screenshots
 
 ![scan](screenshots/scan.png)
