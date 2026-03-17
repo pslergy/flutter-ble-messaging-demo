@@ -76,6 +76,14 @@ https://github.com/pslergy/memento-mori-app
 
 ---
 
+## Who is this for
+
+- mobile developers working with BLE
+- startups building offline or mesh apps
+- IoT developers needing direct device communication
+- engineers tired of fighting BLE instability
+---
+
 ## Full Source Code (Paid)
 
 The full production-ready source code is available separately.
