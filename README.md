@@ -1,113 +1,112 @@
 # Flutter BLE Messaging Demo
 
-Peer-to-peer messaging between smartphones using **Bluetooth Low Energy (BLE)**.
+Reliable peer-to-peer messaging between Android devices over Bluetooth Low Energy (BLE).
 
-This demo shows how two phones can connect directly and exchange messages **without internet** using a custom BLE messaging protocol.
-
-The project demonstrates a lightweight BLE transport layer that can be used for:
-
-* offline messaging
-* IoT device communication
-* mesh networking experiments
-* peer-to-peer data exchange
+No internet. No backend. Just working device-to-device communication.
 
 ---
 
-## Documentation
+## Why this exists
 
-Protocol documentation:
-https://github.com/pslergy/flutter-ble-messaging-demo/tree/main/docs
+BLE communication between smartphones is unreliable and painful to implement.
+
+Common issues:
+- GATT errors (133, timeouts)
+- unstable connections
+- device-specific behavior (especially Huawei)
+- broken message delivery
+
+This project demonstrates a **working solution** that handles these problems.
 
 ---
 
-## Used in
+## What this demo shows
 
-This BLE transport is used in the following project:
+- two phones connect over BLE
+- messages are sent and received in real time
+- works across different Android vendors
+- includes Huawei workaround (pull mode)
 
-Memento Mori Mesh Messenger
-
-https://github.com/pslergy/memento-mori-app
+---
 
 ## Features
 
-• BLE peer-to-peer communication
-• Chunked message transfer
-• Message framing protocol (4-byte length + JSON)
-• Automatic message reassembly
-• Huawei device compatibility workaround
-• Flutter + Android BLE implementation
+• BLE peer-to-peer communication  
+• Chunked message transfer  
+• 4-byte length + JSON framing protocol  
+• Automatic message reassembly  
+• GATT operation queue (fixes GATT_BUSY / 133)  
+• Auto-reconnect logic  
+• Huawei compatibility mode (pull instead of push)  
 
 ---
 
 ## Demo APK
 
-Download the demo application from the **Releases page**:
+Download the demo application:
 
-➡️ **https://github.com/pslergy/flutter-ble-messaging-demo/releases*
+➡️ https://github.com/pslergy/flutter-ble-messaging-demo/releases
 
-Install the APK on two phones and start a BLE connection.
+Install on two devices and test BLE messaging locally.
 
 ---
 
-For purchase inquiries, please contact the author.
-pslergy@gmail.com
-
 ## Screenshots
 
-![scan](screenshots/scan.png)
-
+![scan](screenshots/scan.png)  
 ![chat](screenshots/chat.png)
 
 ---
 
-## How it works
+## Used in
 
-One device acts as **BLE Central** and scans for devices.
+This transport is used in:
 
-The other device acts as **BLE Peripheral (GATT server)**.
-
-Messages are transferred using:
-
-• chunked BLE writes
-• a framing protocol (4-byte message length)
-• notify stream reassembly
-
-This allows sending messages larger than the BLE packet size.
+**Memento Mori Mesh Messenger**  
+https://github.com/pslergy/memento-mori-app
 
 ---
 
-## Possible Use Cases
+## Use Cases
 
-• offline messaging
-• BLE device communication
-• mesh networking experiments
-• IoT prototypes
-• peer-to-peer data exchange
+- offline messaging
+- IoT communication
+- mesh networking experiments
+- peer-to-peer data exchange
 
 ---
 
-## Source Code
+## Full Source Code (Paid)
 
-The **full source code** of this project is available separately.
+The full production-ready source code is available separately.
 
-It includes:
+### Includes:
 
-• Flutter BLE transport layer
-• Android GATT server implementation
-• message framing protocol
-• chunked BLE transfer logic
-• working demo application
+- complete Flutter BLE transport layer  
+- connection manager with auto-reconnect  
+- GATT server + connectable advertising  
+- message protocol and chunking  
+- Huawei-specific fixes  
+- working demo app  
 
-Commercial license and source code access are available **on request**.
+### Integration time
 
-➡️ Contact for access: **(pslergy@gmail.com / link)**
+~10–15 minutes
 
-After purchase you will receive access to the **private repository**.
+---
+
+## Purchase
+
+To get access to the full source code:
+
+📩 Email: pslergy@gmail.com  
+
+After purchase you will receive access to a **private repository**.
 
 ---
 
 ## License
 
-This repository contains **demo binaries and documentation only**.
+This repository contains demo binaries and documentation only.
 
-The complete source code is available under a **commercial license**.
+The full source code is distributed under a commercial license.
