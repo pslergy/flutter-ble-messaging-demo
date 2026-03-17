@@ -97,12 +97,13 @@ The full production-ready source code is available separately.
 
 ## Purchase
 
+**Price:** $399
+
 To get access to the full source code:
 
-📩 Email: pslergy@gmail.com  
+📩 Email: pslergy@gmail.com
 
-After purchase you will receive access to a **private repository**.
-**Price:** $399
+After purchase you will receive access to a private repository.
 
 ---
 
