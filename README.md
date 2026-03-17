@@ -102,6 +102,7 @@ To get access to the full source code:
 📩 Email: pslergy@gmail.com  
 
 After purchase you will receive access to a **private repository**.
+**Price:** $399
 
 ---
 
