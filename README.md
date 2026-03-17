@@ -86,21 +86,28 @@ https://github.com/pslergy/memento-mori-app
 
 ## Full Source Code (Paid)
 
-The full production-ready source code is available separately.
+Production-ready implementation used in real-world scenarios.
 
 ### Includes:
 
 - complete Flutter BLE transport layer  
-- connection manager with auto-reconnect  
-- GATT server + connectable advertising  
-- message protocol and chunking  
-- Huawei-specific fixes  
-- working demo app  
+- robust connection manager (auto-reconnect, backoff)  
+- native Android GATT server + advertising  
+- stable message protocol with chunking  
+- Huawei-specific reliability fixes  
+- ready-to-use demo app  
 
 ### Integration time
 
 ~10–15 minutes
 
+---
+
+## Proof
+
+- tested on Samsung and Huawei devices
+- handles real BLE edge cases (GATT 133, timeouts)
+- stable message delivery across devices
 ---
 
 ## Purchase
