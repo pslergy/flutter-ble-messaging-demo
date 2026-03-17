@@ -114,11 +114,13 @@ Production-ready implementation used in real-world scenarios.
 
 **Price:** $399
 
-To get access to the full source code:
-
-📩 Email: pslergy@gmail.com
+👉 Buy now (PayPal): https://www.paypal.com/ncp/payment/V7DKT36Q6P48Y
 
 After purchase you will receive access to a private repository.
+
+Alternatively:
+
+📩 Email: pslergy@gmail.com
 
 ---
 
