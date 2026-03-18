@@ -112,7 +112,7 @@ Production-ready implementation used in real-world scenarios.
 
 ## Purchase
 
-**Price:** $399
+**Price:** $299
 
 👉 Buy now (PayPal): https://www.paypal.com/ncp/payment/V7DKT36Q6P48Y
 
