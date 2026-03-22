@@ -114,7 +114,10 @@ Production-ready implementation used in real-world scenarios.
 
 **Price:** $399
 
-👉 Buy now (ГUsdt TRC 20): TBXUd9XyFYfZE9m3BdJ76659As5dm8DdKD
+For cooperation issues - pslergy@gmail.com
+
+
+👉 Buy now (Usdt TRC 20): TBXUd9XyFYfZE9m3BdJ76659As5dm8DdKD
 
 
 After payment, I kindly ask you to save time - write your nickname in Github, I will add you to the private repository.
